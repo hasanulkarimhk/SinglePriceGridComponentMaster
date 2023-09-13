@@ -1,0 +1,104 @@
+.wholediv{
+    padding: 0;
+    width: 1440px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: -1px -2px 22px -5px rgba(0,0,0,0.66);
+
+
+}
+
+.topdiv{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+    height: 44%;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.bottomleftdiv{
+    box-sizing: border-box;
+    padding: 50px;
+    width: 50%;
+    background-color: #29b3b0;
+    height: 56%;
+    border-bottom-left-radius: 5px;
+    
+
+}
+
+.bottomrightdiv{
+    box-sizing: border-box;
+    border-bottom-right-radius: 5px;
+    padding: 50px;
+    height: 56%;
+    background-color: #2fc0bd;
+    width: 50%;
+    float: right;
+    position: relative;
+    top:-56%;
+    
+
+}
+
+body{
+    font-family: 'Karla';
+}
+
+#heading123 {
+    color: #29b3b0;
+}
+
+#heading321 {
+    color: #c0df34;
+}
+
+#pre1{
+    font-size: 16px;
+    color:#98a6bd;
+}
+
+#subbottomleftdiv1{
+    font-size: 30px;
+    display: inline-block;
+    color: white;
+}
+#subbottomleftdiv2{
+    color: #e3e6ea;
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+
+#FullAccess {
+    color: white;
+}
+#MSubs{
+    color: white;
+}
+
+Button{
+    background-color: #c0df34;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 40%;
+    border-radius: 5px;
+}
+Button:hover {
+    transform: scale(1.05);
+    background-color: #499b20;
+    cursor: pointer;
+}
+
+.unorderedlist{
+    color: rgba(255, 255, 255, 0.85);
+    list-style: none;
+    padding: 0;
+}
+#yh2{
+    color: white;
+}
